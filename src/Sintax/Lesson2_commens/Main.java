@@ -1,4 +1,4 @@
-package Sintax;
+package Sintax.Lesson2_commens;
 
 //Это main класс
 public class Main {

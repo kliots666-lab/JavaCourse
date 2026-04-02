@@ -26,6 +26,24 @@ public class Variables {
         double doubleNumber=123.342;
         System.out.println("Tne double number: "+doubleNumber);
 
+        char simbol='A';
+        System.out.println(simbol);
+
+        boolean booleancat;
+        booleancat=true;
+        booleancat=false;
+        System.out.println("Cat is: "+booleancat);
+
+        //Назначает переменную атоматически
+        var dog=12;
+        System.out.println("Возраст собаки: "+dog);
+
+        int x, y;
+        x=10;
+        y=200;
+        System.out.println("x="+x);
+        System.out.println("y="+y);
+
 
 
 

@@ -44,6 +44,17 @@ public class Variables {
         System.out.println("x="+x);
         System.out.println("y="+y);
 
+        //Приведение типов
+        short varForCasting=byteNumber;
+        System.out.println(varForCasting);
+
+        int intNewVar=varForCasting;
+        System.out.println(intNewVar);
+
+        var doubleVar=3.6;
+        int intNewinteger = (int) doubleVar;
+        System.out.println("After casting intNewinteger: "+intNewinteger);
+
 
 
 

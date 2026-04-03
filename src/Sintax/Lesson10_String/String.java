@@ -41,7 +41,7 @@ class String {
         StringBuilder sb = new StringBuilder("Привет, ");
 //        "append" - присандалить (добавить)
         sb.append("Сергей");
-        sb.append(" Григорьевич");
+        sb.append(" Григорьевич.");
         System.out.println(sb);
 
 

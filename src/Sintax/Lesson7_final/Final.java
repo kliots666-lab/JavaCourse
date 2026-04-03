@@ -8,8 +8,12 @@ public class Final {
 
     int fistInt = 4, secondInt = 15;
     secondInt=17;
-        System.out.println("fistInt="+fistInt);
-        System.out.println("secondInt="+secondInt);
+        System.out.println("fistInt="+fistInt+", secondInt="+secondInt);
+
+//        "final" не дает азменить переменную в дальнейшем
+        final var nameOfBoss= "Сергей Яценко";
+//        nameOfBoss="Кирилл Дурак";
+        System.out.println("Имя начальника: "+nameOfBoss);
 
 
 

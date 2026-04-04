@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class ScannerDemo {
     static void main() {
-
+//        System.in - объявляем сканер из консоли
         Scanner scanner=new Scanner(System.in);
         System.out.print("Введите ваше имя: ");
         String name = scanner.nextLine().trim();
@@ -15,7 +15,7 @@ public class ScannerDemo {
 
         System.out.println("Имя: "+name+".");
         System.out.println("Возраст: "+age+" лет.");
-
+        scanner.close();
 
 
 

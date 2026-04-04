@@ -16,25 +16,18 @@ public class IfDemo {
         //else System.out.println("Вы взрослый!");
 
 //        Это код по обучающей программе
-        if (age >= 18){
+        if (age >= 18) {
             System.out.println("Вы врослый.");
-        }else if (age<18){
-            System.out.println("Вы ребёнок.");
+        } else if (age >= 13) {
+            System.out.println("Вы подросток.");
+        } else {
+            System.out.println("Вы ребенок.");
         }
         scanner.close();
 
 
-        }
-
-
-
-
-
-
-
-
-
-
-
     }
+
+
+}
 

@@ -6,7 +6,6 @@ public class Practic1 {
 
         System.out.println("Победитель кубка школы: "+getWinner(100,230,84,124));
     }
-
     public static String getWinner (
             int griffindorPoints, int slyterinPoints,
             int rawenclawPoints, int huffelpufPoints

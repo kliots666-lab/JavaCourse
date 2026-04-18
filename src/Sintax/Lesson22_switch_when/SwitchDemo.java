@@ -3,8 +3,8 @@ package Sintax.Lesson22_switch_when;
 public class SwitchDemo {
     static void main(String[] args) {
 
-        System.out.println(
-        WhenDemoKt.getWinner(120,23,4,54));
+        System.out.println("Чемпион РПЛ: "+
+        WhenDemoKt.getWinner(120,23,4,54)+"!");
     }
     /*a - Зенит, b - Спартак, c - Урал, d - Локомотив
     public static String getWinner(
